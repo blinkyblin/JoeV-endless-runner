@@ -24,7 +24,6 @@ public class GameMgr : MonoBehaviour
 
     public void GameOver()
     {
-        currentScore = 0;
         isPlaying = false;
     }
 

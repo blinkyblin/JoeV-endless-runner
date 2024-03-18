@@ -15,6 +15,6 @@ public class UiMgr : MonoBehaviour
 
     private void OnGUI()
     {
-        scoreDisplay.text = ("score ") + gameMgr.ScoreDisplay();
+        scoreDisplay.text = ("score") + gameMgr.ScoreDisplay();
     }
 }
